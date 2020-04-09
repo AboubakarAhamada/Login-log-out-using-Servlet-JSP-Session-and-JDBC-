@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Aboubakar | Protfolio</title>
+	<!----------------------- Responsive design ------------------------>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<!---------------------- CSS file ---------------------------------->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--------------- Font awsone icons --------------------------------->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<!-------------- Bootstrap 4 ---------------------------------------->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+</head>
+
+<body>
+
+	<!---------------------- Header Section ------------------------>
+	<section id="header">
+		<div class="container text-center">
+			<div class="user-box">
+				<img src="images/photo_cv.png">
+				<h1><div id="target1"></div></h1>
+				<p><div id="target2"></div></p>
+				
+			</div>	
+		</div>
+		<!----------------- Scroll buton -------------------------->
+		<div class="scroll-btn">
+			<div class="scroll-bar"><a href="#about"><span></span></a></div>	
+		</div>
+	</section>
+
+
+	<!-------------------- User infos section --------------------->
+	<section id="infos">
+		<div class="nav-bar">
+			<nav class="navbar navbar-expand-lg">
+			  	<a class="navbar-brand" href="#top"><img src="images/photo_cv.jpg" id="logo"></a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				    <i class="fa fa-bars"></i>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarNav">
+				    <ul class="navbar-nav ml-auto">
+				      <li class="nav-item">
+				        <a class="nav-link" href="../welcome.jsp">HOME</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#about">ABOUT ME</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#resume">RESUME</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#expertise">EXPERTISE</a> 
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#contact">CONTACT</a>
+				      </li>
+				    </ul> 
+				  </div>
+			</nav>
+		</div>
+
+		<!--------------------- ABOUT ------------------->
+		<div class="about container" id="about">
+			<div class="row">
+				<!--------------- Profil picture ---------------------------->
+				<div class="col-md-6 profil-image text-center">
+					<img src="images/photo_cv.png" class="profil-image">
+				</div>
+				<!--------------- Description and skills set ---------------->
+				<div class="col-md-6">
+					<h1>QUI SUIS-JE ?</h1>
+					<p> Aboubakar Ahamad, <br>
+						Diplomé en Master Spécialisé en Ingénierie Informatique, je suis passionné par le développement informatique et le Data Mining. Je me forme continuellement pour rester à la hauteur de repondre à vos besoins. <br> Mon point fort est la curiosité. J'aime découvrir et tester des nouvelles technologies. Celà a fait naitre en moi une capacité d'adaptation et un envie continue d'apprendre. Ce qui me permet de m'adapter facilement.
+
+					</p>
+					<div class="skills-bar">
+						<h3> Technical Skills : </h3>
+						<p>Data Mining : R, Weka</p>
+						<div class="progress">
+							<div class="progress-bar" style="width: 75%">
+								75%	
+							</div>
+						</div>
+						<p>Java development : JEE, Hibernate, Spring Boot</p>
+						<div class="progress">
+							<div class="progress-bar" style="width: 65%">
+								65%	
+							</div>
+						</div> 
+						<p>Web : HTML5, CSS, JavaScript, jQuery, angularJS, Bootstap</p>
+						<div class="progress">
+							<div class="progress-bar" style="width: 65%">
+								65%	
+							</div>
+						</div>
+						<p>Databases : MySQL, PostgreSQL</p>
+						<div class="progress">
+							<div class="progress-bar" style="width: 50%">
+								50%	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-------------------- Social medias icons ----------------------->
+		<div class="media">
+			<ul>
+				<a href="https://www.linkedin.com/in/aboubakar-ahamada-150a70b4/" target="blank"><li><i class="fab fa-linkedin"></i></li></a>
+				<a href="https://github.com/AboubakarAhamada?tab=repositories" target="blank"><li><i class="fab fa-github"></i></li></a>
+				<a href="https://www.facebook.com/aboubakar.ahamada.1" target="blank"><li><i class="fab fa-facebook"></i></li></a>
+			</ul>
+		</div>	
+
+		<!------------------ RESUME ---------------------->
+		<div class="resume" id="resume">
+			<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h3 class="text-center">Experience</h3>
+							<ul class="timeline">
+								<li>
+									<h4><span>2020 -</span> Java/Angular Development</h4>
+									<!--<p> Modification of the ThingdBoard Plateform ... <br> -->
+										<b> Entreprise </b> - Digital Advisor <br>
+										<b>Durée </b> - Encours <br>
+										<b>Lieu </b> - Casablance, Technopark<br>
+									</p>
+								</li>
+								<li>
+									<h4><span>2019 -</span> Data Science</h4>
+									<p> - Extraction des nouvelles connaissances à partir des
+										données biomédicales, Data Viz et reporting /
+										Anticpation de la mise en place d'un médicament.<br>
+										- Mise en place d'un modèle prédictif pour l'échec
+										de la greffe rénale / Prédiction de l'état de santé
+										de 60 personnes greffées.<br>
+										- Automatisation du processus d'extraction et
+										nettoyage des données provenant des pages web.<br>
+										- Fromer une équipe de deux personnes à la programmation R et l'analyse des données génomiques.<br>
+										- Outils : R, Caret, Ggplot2, SQLite <br>
+										<b> Entreprise </b> - Indatamin <br>
+										<b>Durée </b> - 9 mois <br>
+										<b>Lieu </b> - Oujda<br>
+									</p>
+								</li>		
+							</ul>	
+						</div>	
+
+						<div class="col-md-6">
+							<h3 class="text-center">Education</h3>
+							<ul class="timeline">
+								<li>
+									<h4><span>2019 -</span> Master Spécialisé, Ingénierie Informatique</h4>
+										<b>Etablissement </b> - Université Mohamed I <br>
+										<b>Lieu </b> - Oujda<br>
+										</p>
+								</li>
+								<li>
+									<h4><span>2016 -</span> Licence, Mathématiques et Informatique</h4>
+										<b>Etablissement </b> Université Mohamed I <br>
+										<b>Lieu </b> - Oujda<br>
+										</p>
+								</li>	
+								<li>
+									<h4><span>2013 -</span> Baccalauréat, Science Mathématiques</h4>
+										<b> Etablissement </b> - Lycée Scientifique Cheick Hamdan Ben Rachid <br>
+										<b>Lieu </b> - Comores<br>
+										</p>
+								</li>		
+							</ul>	
+						</div>	
+
+					</div>	
+				</div>	
+			</div>
+
+			<!------------- DOMAINES D'EXPERTISE --------------------->
+			<div class="expertise" id="expertise">
+				<div class="container text-center">
+					<h1>Domaines d'expertise</h1>
+					<p> J'ai acquis, grâce à une formation scientifique axée sur les nouvelles technologies et mes expériences, des solides compétences notamment en science de données et en développement informatique.</p>
+
+					<div class="row">
+						<div class="col-md-4">
+							<div class="expertise-box">
+								<!--<i class="fas fa-chart-line"></i><span></span> -->
+								<img src="images/datamining.jpg">
+								<p>J'utilise les meilleurs <br> outils et algorithmes de Data Mining pour vous accompagner dans le processus de valorisation de vos données à des fins d'anlyses, de prédiction ou pour une segmentation pour le marketing ciblé.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="expertise-box">
+								<!--<i class="fas fa-laptop"></i><span></span> -->
+								<img src="images/frontend.jpg">
+								<p>Je conçoit des sites<br> web et des applications sur mesure qui conviennent à vos besoins. Des applications qui s'adaptent au différents terminaux et agreables pour les utilisateurs pour vous rendre plus visible sur le web.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="expertise-box">
+								<!-- <i class="fab fa-java"></i><span></span> -->
+								<img src="images/java.jpeg">
+								<p>Pour quoi Java?<br> Java est mon language de programmation le plus préféré pour son architeure et frameworks tels que Hiberate et Spring Boot permettant de créer des applications flexibles et multiplateformes.</p>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<!------------------------ CONTACT ------------------------->
+	<section id="contact">
+			<div class="contact" id="contact">
+				<div class="container text-center">
+					<h1>Me contactrer </h1>
+					<div class="row">
+						<div class="col-md-4">
+							<i class="fa fa-phone"></i>
+							<p>+212 (0)6 48 18 12</p>
+							
+						</div>
+						<div class="col-md-4">
+							<i class="fa fa-envelope"></i>
+							<p>abou.ahamada269@gmail.com</p>
+							
+						</div>
+						<div class="col-md-4">
+							<i class="fa fa-map-marker"></i>
+							<p>1 D Lot Massira Hassania Etg 2 Appt 22, HH Casablanca</p>
+							
+						</div>
+						
+					</div>
+					<button class="btn btn-outline-success"><i class="fa fa-download"><a href="CV_AboubakarAhamada.pdf" target="blank">
+					Resume</a></i></button>
+					<button class="btn btn-outline-success"><i class="fa fa-handshake"></i> Hire Me</button>
+					
+				</div>
+
+			</div>
+			
+	</section>
+	
+	<!----------------------- Footer --------------------------->
+	<section id="footer">
+		<div class="footer text-center">
+			<p> Made with <i class="fa fa-heart"></i> by Aboubakar Ahamada </p>			
+		</div>
+	</section>
+
+	<!-- ================= JAVASCRIPT SECTION ====================== --->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+    $(function() {
+  var name = 'Aboubakar Ahamada';
+  var citation = 'Data Mining & Software Development are awsome together';
+  var index1 = 0;
+  var index2 = 0;
+
+  function displayName() {
+    if (index1 < name.length) {
+      $('#target1').append(name[index1++]);
+    }
+    else{
+      clearInterval(repeat1);
+    }
+  }
+  var repeat1 = setInterval(displayName, 100);
+
+  function displayCitation() {
+    if (index2 < citation.length) {
+      $('#target2').append(citation[index2++]);
+    }
+    else{
+      clearInterval(repeat2);
+    }
+  }
+  var repeat2 = setInterval(displayCitation, 100);
+});
+</script>
+
+</body>
+</html>
